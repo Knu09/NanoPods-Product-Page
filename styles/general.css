@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "PP Supply Mono";
+    src: url(fonts/PPSupplyMono-Regular.otf) format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "PP Supply Mono";
+    src: url(fonts/PPSupplyMono-Ultralight.otf) format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    src: url(fonts/Supply-UltraLight.otf),
+    url(fonts/Supply-Light.otf),
+    url(fonts/Supply-Regular.otf),
+    url(fonts/Supply-Medium.otf),
+    url(fonts/Supply-Bold.otf);
+}
+
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    line-height: calc(1em + 0.5em);
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #EBEBEB;
+    font-family: Poppins, sans-serif;
+}
+
+:root {
+    --clr-black: #212121;
+    --clr-yellow: #E7F133;
+}
